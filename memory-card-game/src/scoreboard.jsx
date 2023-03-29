@@ -7,7 +7,23 @@ import { Component } from "react";
 // Stop current score if wrong answer(s) chosen
 
 class Scoreboard extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            currentScore: 0,
+            bestScore: 0,
+        }
+    }
+    // getScore() {
 
+    // }
+    // componentDidMount(){
+    //     this.getScores();
+    // }
+
+    // render() {
+    //     <ul></ul>
+    // }
 }
 
 

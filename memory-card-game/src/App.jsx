@@ -7,9 +7,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <h1>Test Your Memory!</h1>
-      <p>Click on the matching items as they appear.</p>
+      <h1 id="heading">Test Your Memory!</h1>
+      <p id="mission">Click on the matching items as they appear.</p>
       </header>
+      {/* < Scoreboard />
+      < Items /> */}
     </div>
   );
 }
