@@ -7,5 +7,8 @@ import React, { useState, useEffect } from 'react';
 // Stop current score if wrong answer(s) chosen
 
 export default function scoreKeeper() {
-    const [score, setTemp] = useState(0);
+    const [scoreCurr, setscoreCurr] = useState(0);
+    const [scoreBest, setscoreBest] = useState(0);
+
+    
 };
