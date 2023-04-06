@@ -6,29 +6,6 @@ import { Component } from "react";
 // Overwrite best score and save new if current score exceeds previous best
 // Stop current score if wrong answer(s) chosen
 
-class Scoreboard extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            currentScore: 0,
-            bestScore: 0,
-        }
-    }
-    // getScore() {
+export default function scoreKeeper() {
 
-    // }
-    // componentDidMount(){
-    //     this.getScores();
-    // }
-
-    // render() {
-    //     <ul></ul>
-    // }
-}
-
-
-
-
-
-
-export default Scoreboard;
+};

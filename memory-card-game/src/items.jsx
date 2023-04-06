@@ -8,15 +8,11 @@ import { Component } from "react";
 // Correct match shuffles/randomizes cards
 // Each shuffle has one or more correct items - max display 4
 
-class Items extends Component {
-    // constructor(props){
-    //     super(props);
+export default function Items() {
+
+};
 
 
-    // }
-}
-
-export default Items;
 
 // Extra TODOs
 // Allow difficulty setting (E/M/H) to increase array draw size

@@ -1,5 +1,5 @@
 import React from 'react';
-import Scoreboard from './scoreboard';
+import scoreKeeper from './scoreboard';
 import Items from './items';
 import './App.css';
 
