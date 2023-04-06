@@ -1,4 +1,4 @@
-import { Component } from "react";
+import { Component } from 'react';
 
 // TODO
 // Create memory cards (text optional)

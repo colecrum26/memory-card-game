@@ -1,4 +1,4 @@
-import { Component } from "react";
+import React, { useState, useEffect } from 'react';
 
 // TODO 
 // Count and display current score
@@ -7,5 +7,5 @@ import { Component } from "react";
 // Stop current score if wrong answer(s) chosen
 
 export default function scoreKeeper() {
-
+    const [score, setTemp] = useState(0);
 };
