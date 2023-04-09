@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import ScoreKeeper from './scoreboard';
-import Game from './game';
+import ScoreKeeper from './components/scoreboard';
+import Game from './components/game';
 import './App.css';
 
 function App() {
@@ -21,10 +21,6 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
-      <h1 id="heading">Test Your Memory!</h1>
-      <p id="mission">Click on the matching items as they appear.</p>
-      </header>
       < ScoreKeeper scoreCurr={scoreCurr} scoreBest={scoreBest} />
       < Game handleScore={handleScore}/>
     </div>
